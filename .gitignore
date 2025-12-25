@@ -1,0 +1,80 @@
+## Игнорировать файлы пользовательских настроек
+*.user
+*.userosscache
+*.sln.docstates
+
+## Игнорировать результаты сборки
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Bb]uild/
+[Bb]uildOutput/
+[Oo]utput/
+
+## Игнорировать кэш Visual Studio
+.vs/
+.vscode/
+
+## Файлы пакетов NuGet
+packages/
+[Nn]u[Gg]et.exe
+*.nupkg
+.nuget/
+nuget.exe
+
+## Файлы резервных копий
+*.backup
+*.bak
+*.tmp
+
+## Файлы тестов
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+## Файлы проектов
+*.suo
+*.userprefs
+*.csproj.user
+*.vbproj.user
+
+## Файлы базы данных
+*.mdf
+*.ldf
+*.sdf
+
+## Azure
+*.azurePubxml
+*.pubxml
+
+## Другие
+_ReSharper*/
+*.resharper
+*.sln.ide
+*.pidb
+*.log
+*.cache
+
+# Публикация
+publish/
+
+# Файлы конфигурации (кроме общих)
+appsettings.Development.json
+appsettings.Staging.json
+
+# Локальная база данных
+App_Data/
+
+# Клиентские зависимости
+node_modules/
+jspm_packages/
+
+# Папки пакетов
+bower_components/
+
+# Sass
+.sass-cache/
